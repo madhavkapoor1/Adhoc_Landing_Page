@@ -1,0 +1,74 @@
+*{
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    position:fixed;
+    top: 0;
+}
+
+#Jumbotron{
+    background-image: url(/Images/jumbotron.png);
+    background-repeat: no-repeat;
+}
+
+#discription{
+transition: 0.5s;
+}
+
+#discription:hover{
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+}
+
+html{
+    min-width: fit-content;
+    scroll-behavior:smooth;
+    min-height: fit-content;
+}
+
+@media (max-width: 150px){
+    *{
+        overflow: scroll;
+        min-width: none;
+    }
+}
+
+#TheTeam{
+    overflow: hidden;
+}
+
+.carousel-inner img{
+    height: 20em !important;
+    width: auto !important;
+}
+
+#Teampics{
+    background-image: url(/Images/bg-hero-desktop.svg);
+}
+
+@keyframes Transitionin{
+     from{
+        opacity: 0;
+     }
+
+     to{
+        
+        opacity: 1;
+     }
+
+
+}
+
+.main-text{
+    animation: Transitionin 0.75s;
+}
+
+#contact-us{
+    background-image: url(/Images/bg-hero-desktop.svg);
+
+}
